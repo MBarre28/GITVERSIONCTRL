@@ -1,5 +1,5 @@
 
-let btnTest = "Hello World";
+let btnTest = "Click This Button";
 
-document.getElementById("btnTester").onclick = "Hello World";
-console.log(btnTest);
+document.getElementById("btnTester").innerHTML = btnTest
+console.log(btnTest)
